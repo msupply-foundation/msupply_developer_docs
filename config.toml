@@ -1,0 +1,29 @@
+# The URL the site will be built for
+base_url = "https://developer.msupply.foundation"
+
+theme = "adidoks"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+default_language = "en"
+# Whether to build a search index
+
+[languages.en]
+title = "mSupply documentation + user guides"
+description = "Documentation and user guides for the mSupply foundation suite of software products. Here you'll find the user guide for notify, mSupply dashboard, health supply hub and mSupply mobile. There is also the user documentation for Open mSupply, Conforma, mSupply and mSupply cold chain."
+build_search_index = true
+
+[languages.en.translations]
+flag = "en.svg"
+TOCtitle = "On this page"
+search_placeholder = "Search docs (whole words)..."
+
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
